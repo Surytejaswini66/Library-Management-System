@@ -1,0 +1,11 @@
+# Ensure consistent line endings for text files
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+
+# Ignore binary files (just examples)
+*.jpg binary
+*.png binary
+# Ignore virtual environment directory
+venv/
